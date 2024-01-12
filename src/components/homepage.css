@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    /* position: sticky; */
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.461);
+}
+#navbar ul {
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+#navbar ul li {
+    /* color: white; */
+    margin-top: 20px;
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a {
+    display: block;
+    color: white;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover {
+    color: burlywood;
+    background-color: rgba(152, 251, 152, 0.668);
+}
+#home::before {
+    /* content: ""; */
+    /* position: absolute; */
+    /* top: 0px; */
+    /* left: 0px; */
+    background-color:palegreen;
+    /* height: 642px; */
+    /* width: 100%; */
+    /* z-index: -1; */
+    /* opacity: 0.8; */
+}
+.center {
+    text-align: center;
+}
+.h-secondary {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 2.3rem;
+    padding: 7px;
+    text-align: center;
+}
+#services-container{
+    margin-top: 80px;
+}
+#services {
+    margin: 34px;
+    display: flex;
+}
+#services .box {
+    border: 4px solid black;
+    padding: 34px;
+    margin: 2px 35px;
+    border-radius: 28px;
+    background-color: #5047c784;
+    margin-bottom: 20px;
+}
+#services .box img {
+    height: 200px;
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+#services .box p {
+    font-family: 'Baloo Bhai', cursive;
+}
+#contact{
+    margin-top: 100px;
+}
+#contact-box{
+    display: flex;
+    margin-top:50px;
+    margin-right: auto; 
+}
+#contact .box {
+    padding: 34px;
+    margin: 2px 175px;
+    border-radius: 28px;
+    margin-bottom: 50px;
+}
+#contact {
+    position: relative;
+}
+.no-space {
+    line-height: 0; 
+    font-family: 'Baloo Bhai', cursive;
+}
+.address{
+    margin-top: 22px;
+}
+.color{
+    color: palevioletred;
+}
+#contact .item{
+    margin:4px ;
+    list-style: none;
+    font-family: 'Baloo Bhai', cursive;
+}
+#contact .flex{
+    display: flex;
+}
+#contact-box .grid{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas:2fr 2fr 1fr; 
+    /* 'name' 'last' */
+    /* 'mail' 'phone'; */
+}
+/* #name{ */
+    /* grid-area: name; */
+/* } */
+/* #last{ */
+    /* grid-area: last; */
+/* } */
+/* #mail{ */
+    /* grid-area: mail; */
+/* } */
+/* #phone{ */
+    /* grid-area: phone; */
+/* } */
+#contact .btn{
+    border: 2px solid palevioletred;
+    border-radius: 7px;
+    color: white;
+    background-color:palevioletred;
+    cursor: pointer;
+}
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#message{
+    margin-top: 12px;
+}

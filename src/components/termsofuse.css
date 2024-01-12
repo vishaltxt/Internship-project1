@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head {
+    margin-top: 30px;
+    text-align: center;
+}
+#section ol{
+    margin-top: 30px;
+    margin-left: 20px;
+}
