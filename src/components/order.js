@@ -1,4 +1,5 @@
 import React from 'react'
+import './order.css'
 import { useState } from 'react';
 
 const Order = () => {
@@ -14,9 +15,13 @@ const Order = () => {
     const calculateTotal = () => {
         return orderItems.reduce((total, item) => total + item.price, 0);
     };
+
     return (
         <div>
-            <h1>Order Page</h1>
+            <div>
+                <input type="text" name="name" id="name"></input>
+                <button>Search</button>
+            </div>
             <div>
                 <h2>Available Products</h2>
                 <ul>
@@ -24,6 +29,7 @@ const Order = () => {
                         <li key={product.id}>
                             {product.name} - ${product.price}{' '}
                             <button onClick={() => addToOrder(product)}>Add to Order</button>
+                            <details>123</details>
                         </li>
                     ))}
                 </ul>

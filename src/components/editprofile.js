@@ -1,6 +1,6 @@
 import React from "react";
 import img8 from '../images/prifilepic.jpeg'
-// import { useState } from "react";
+
 const Editprofile = () => {
     return (
         <>
@@ -33,27 +33,3 @@ const Editprofile = () => {
     );
 };
 export default Editprofile;
-// const EditProfile = ({ user, updateUser }) => {
-//     const [name, setName] = useState(user.name);
-//     const [email, setEmail] = useState(user.email);
-
-//     const handleUpdate = () => {
-//         // You can perform any necessary validation or API calls here
-//         // For simplicity, we'll just update the user in the state
-//         updateUser({ name, email });
-//     };
-
-//     return (
-//         <div>
-//             <h2>Edit Profile Page</h2>
-//             <label>Name:</label>
-//             <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
-//             <br />
-//             <label>Email:</label>
-//             <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
-//             <br />
-//             <button onClick={handleUpdate}>Update Profile</button>
-//         </div>
-//     );
-// };
-// export default EditProfile;

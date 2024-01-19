@@ -2,11 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* background-color: #f4f4f4; */
+    
 }
 .filter-container {
-    /* max-width: 100%; */
-    /* margin: 50px auto; */
     text-align: center;
     padding: 20px;
     background-color: #fff;
@@ -16,9 +14,6 @@
 h1 {
     color:black;
 }
-/* section{ */
-    /* display: flex; */
-/* } */
 .filter-options {
     display: flex;
     margin-top: 20px;

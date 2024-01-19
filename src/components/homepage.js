@@ -1,26 +1,12 @@
 import React from 'react';
 import './homepage.css';
-// import About from './about';
+
 import img1 from '../images/Frontend.jpg'
 import img2 from '../images/backend.jpg'
 import img3 from '../images/database.jpeg'
 import { Link } from 'react-router-dom'
-// import { useSelector } from 'react-redux';
-// import { Redirect } from 'react-router-dom';
-// import { useNavigate } from 'react-router-dom';
 
-// export default function Homepage() {
 const Homepage = () => {
-    // const navigate = useNavigate();
-    // const onClick = () => {
-    // navigate("/about")
-    // };
-
-    // const navigate = useNavigate();
-    // const shouldRedirect = true;
-    // if (shouldRedirect) {
-    // navigate('/login');
-    // }
     return (
         <>
             <div>

@@ -14,7 +14,6 @@
     font-family: 'Baloo Bhai', cursive;
 }
 #navbar ul li {
-    /* color: white; */
     margin-top: 20px;
     list-style: none;
     font-size: 1.3rem;
@@ -41,15 +40,7 @@
     border-radius: 6px;
 }
 #home::before {
-    /* content: ""; */
-    /* position: absolute; */
-    /* top: 0px; */
-    /* left: 0px; */
     background-color:palegreen;
-    /* height: 642px; */
-    /* width: 100%; */
-    /* z-index: -1; */
-    /* opacity: 0.8; */
 }
 .center {
     text-align: center;
@@ -123,21 +114,8 @@
     display: grid;
     grid-gap: 1rem;
     grid-template-areas:2fr 2fr 1fr; 
-    /* 'name' 'last' */
-    /* 'mail' 'phone'; */
 }
-/* #name{ */
-    /* grid-area: name; */
-/* } */
-/* #last{ */
-    /* grid-area: last; */
-/* } */
-/* #mail{ */
-    /* grid-area: mail; */
-/* } */
-/* #phone{ */
-    /* grid-area: phone; */
-/* } */
+
 #contact .btn{
     border: 2px solid palevioletred;
     border-radius: 7px;

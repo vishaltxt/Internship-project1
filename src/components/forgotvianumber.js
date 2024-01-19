@@ -10,7 +10,6 @@ const Forgotvianumber = () => {
                 <label for="name">Phone Number: </label>
                 <input class="inp" type="number" name="name" id="name" />
                 <button>Send otp</button>
-                {/* <p><a href="/">Forgot via Mobile Number </a> </p> */}
             </section>
         </>
     )

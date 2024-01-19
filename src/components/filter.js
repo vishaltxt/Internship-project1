@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import { useHistory } from 'react-router-dom'
 import './filter.css'
 import img5 from '../images/mobile.jpeg'
 import img6 from '../images/tshirt.jpeg'
@@ -17,14 +16,9 @@ const Filter = () => {
     const handleSortOptionChange = (event) => {
         setSortOption(event.target.value);
     };
-    // const navigateToResults = () => {
-    // Use history.push to navigate to another page and pass filter options as query parameters
-    // history.push(`/results?category=${category}&sort=${sortOption}`);
-    // };
     return (
         <div>
             <div class="filter-container">
-                {/* <h1>Product Filter</h1> */}
                 <section>
                     <div class="filter-options">
                         <label for="category">Filter by Category:</label>
@@ -44,7 +38,6 @@ const Filter = () => {
                             <option value="popularity">Sort by popularity</option>
                         </select>
                     </div>
-                    {/* <button onClick={navigateToResults}>Apply Filters</button> */}
                 </section>
                 <section>
                     <div class="product-list">
