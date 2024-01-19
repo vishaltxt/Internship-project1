@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#ques{
+    margin-top: 30px;
+    text-align: center;
+    color: brown;
+}
+#distance{
+    margin-top: 36px;
+}

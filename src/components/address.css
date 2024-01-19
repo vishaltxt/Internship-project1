@@ -1,0 +1,48 @@
+*{
+   margin: 0px;
+  padding: 0px;
+}
+#address h2{
+  text-align: center;
+  color: black;
+  margin-top: 30px;
+}
+.address-section{
+  margin-top: 23px;
+  margin-left: 385px;
+}
+.form-group {
+  margin-bottom: 15px;
+  }  
+label{
+  display: block;
+  margin-bottom: 5px;
+}
+.flex1{
+  display: flex;
+  gap: 150px;
+}
+input {
+  width: 62%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.input-address{
+  width: 150%;
+}
+.bttn{
+  padding: 9px;
+  margin-top: 20px;
+  font-size: 21px;
+  margin-left: 675px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.589);
+  border: 2px solid black;
+  border-radius: 16px;
+}
+.bttn:hover{
+  color: black;
+  background-color:palevioletred;
+}

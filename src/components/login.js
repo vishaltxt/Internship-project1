@@ -54,7 +54,7 @@ const Login = () => {
                     </form>
                     <div className="register-forget opacity">
                         <p>REGISTER</p>
-                        <p>FORGOT PASSWORD</p>
+                        <p><a href="/forgot"> FORGOT PASSWORD </a></p>
                     </div>
                 </div>
                 <div className="circle circle-two"></div>

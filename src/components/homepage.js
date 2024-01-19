@@ -30,7 +30,23 @@ const Homepage = () => {
                         <li class="item"><Link to="/about">About Us</Link></li>
                         <li class="item"><Link to="/termsofuse">Terms of use</Link></li>
                         <li class="item"><Link to="/privacypolicy">Privacy policy</Link></li>
+                        <li class='item'><Link to="/faq">FAQs</Link></li>
+                        <li class='item'><Link to="/address">Address</Link></li>
+                        <li class='item'><Link to="/filter">Filter</Link></li>
+                        <li class='item'><Link to="/profile">Profile</Link></li>
+                        <li class='item'><Link to="/order">Order</Link></li>
+                        <div class="search-container">
+                            <form action="https://www.google.com/search" method="get" target="_blank">
+                                <input type="text" name="q" id="search" placeholder="Search the web" />
+                                <button id='search' type="submit">Search</button>
+                            </form>
+                        </div>
                     </ul>
+                    <div class="burger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
                 </nav>
                 <section id="services-container">
                     <div id="services">

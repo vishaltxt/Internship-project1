@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#success-bg{
+    background-color: greenyellow;
+    height: 727px;
+}
+.success-img{
+    margin: 150px 300px 0px 600px;
+    width: 200px;
+    height: 190px;
+    align-items: center;
+}
+#success-id p{
+    font-size: 23px;
+    margin: 10px 0px 0px 650px;
+}
+.success{
+    font-size: 27px;
+    margin: 10px 0px 0px 545px;
+}

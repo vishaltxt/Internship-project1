@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.forgot-heading{
+    color:whitesmoke;
+    font-size: 58px;
+    text-align: center;
+    margin-top: 200px;
+}
+.forgot-card{
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    background-color:whitesmoke;
+    margin: 40px 410px 10px 410px;
+}
+.forgot-card label{
+    color: blue;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.forgot-card input{
+    margin-left: 30px;
+    width: 90%;
+    border-radius: 14px;
+}
+.forgot-card button{
+    margin: 20px 36px 0px 36px;
+    padding: 7px;
+    font-size: 17px;
+    color: purple;
+    background-color: yellow;
+    border-radius: 14px;
+}
+.forgot-card  a{
+    color: black;
+    margin: 30px 0px 0px 35px;
+}

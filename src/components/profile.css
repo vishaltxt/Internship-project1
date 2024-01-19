@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.display{
+    display: flex;
+    gap: 60px;
+    background-color:white;
+}
+#profile-main{
+    background-color: rgba(58, 17, 152, 0.907);
+    width: 350px;
+    height: 727px;
+}
+container h2{
+    color: black;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+container ul{
+    list-style: none;
+    margin-top: 60px;
+}
+container ul li{
+    align-items: center;
+    margin-left: 66px;
+    margin-bottom: 56px;
+    font-size: 20px;
+}
+container ul li:hover{
+    color: aqua;
+}
+.level{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.imgg{
+    margin-left: 300px;
+    border: 6px solid black;
+    border-radius: 5px;
+}
+.btttn{
+    /* color:black; */
+    margin-top: 13px;
+    margin-left: 336px;
+}
+.cardd{
+     padding: 10px;
+}
+.cardd p{
+    font-size: 23px;
+    margin-top: 39px;
+    color: gray;
+}
+.cardd p a{
+    color: grey;
+}
+.cardd p:hover{
+    color: aqua;
+}
+.cardd p a:hover{
+    color: aqua;
+ }
+.displayy{
+    display: flex;
+}
+.gapp{
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.inp{
+    width: 440px;
+    margin-bottom: 10px;
+}
+.button1{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(11, 11, 164, 0.838);
+    padding: 9px;
+    width: 90px;
+    margin-top: 14px;
+}
+.button2{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(11, 11, 164, 0.838);
+    padding: 9px;  
+    margin-left: 53px;
+    margin-top: 14px;
+    width: 90px;
+ }

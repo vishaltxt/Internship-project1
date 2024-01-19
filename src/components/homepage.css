@@ -30,6 +30,16 @@
     color: burlywood;
     background-color: rgba(152, 251, 152, 0.668);
 }
+.search-container{
+    margin-top: 23px;
+
+}
+#search{
+    margin-left: 8px;
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 6px;
+}
 #home::before {
     /* content: ""; */
     /* position: absolute; */
@@ -144,4 +154,7 @@
 }
 #message{
     margin-top: 12px;
+}
+@media only screen and (max-width:1140px) {
+    
 }
