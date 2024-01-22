@@ -2,3 +2,25 @@
     margin: 0px;
     padding: 0px;
 }
+#color-bg{
+    background-color: violet;
+    height: 727px;
+}
+.order-head h1{
+    text-align: center;
+}
+.order-head input{
+    width: 210px;
+    margin: 10px 0px 0px 1100px;
+}
+.order-head button{
+    margin-left: 12px;
+    padding: 7px;
+    border-radius: 9px;
+}
+.order-products{
+    margin-left: 30px;
+}
+.product-total{
+    margin-left: 30px;
+}

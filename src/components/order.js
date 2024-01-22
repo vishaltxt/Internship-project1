@@ -17,25 +17,26 @@ const Order = () => {
     };
 
     return (
-        <div>
-            <div>
+        <div id="color-bg">
+            <div class="order-head">
+                <h1>Your Orders</h1>
                 <input type="text" name="name" id="name"></input>
                 <button>Search</button>
             </div>
-            <div>
+            <div class="order-products">
                 <h2>Available Products</h2>
                 <ul>
                     {products.map((product) => (
                         <li key={product.id}>
                             {product.name} - ${product.price}{' '}
                             <button onClick={() => addToOrder(product)}>Add to Order</button>
-                            <details>123</details>
+                            <details><p>delivery date:within 24 hours of your order</p><p>Cash on delivery available</p></details>
                         </li>
                     ))}
                 </ul>
             </div>
 
-            <div>
+            <div class="product-total">
                 <h2>Your Order</h2>
                 <ul>
                     {orderItems.map((item) => (
